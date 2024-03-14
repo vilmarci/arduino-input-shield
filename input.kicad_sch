@@ -1,0 +1,2231 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dfb208ec-d226-44cd-9b6f-5a58bf031a5d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x1_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x1_Male"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x1_Male_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x1_Male_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 29.21 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3096042e-cac6-4481-99b0-06de4fb7ac63")
+	)
+	(junction
+		(at 29.21 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b41664ab-8210-412f-8896-ddb5870bf16b")
+	)
+	(wire
+		(pts
+			(xy 29.21 31.75) (xy 38.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c46516-3da8-4279-a9c0-45c557d61dc9")
+	)
+	(wire
+		(pts
+			(xy 29.21 17.78) (xy 29.21 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b93b01-a059-4f93-ab73-bc9bb9fa2d70")
+	)
+	(wire
+		(pts
+			(xy 38.1 31.75) (xy 38.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39997abc-6ac4-4f30-81c5-9fad738673b1")
+	)
+	(wire
+		(pts
+			(xy 20.32 24.13) (xy 29.21 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bbd786-6dfe-41dd-815b-1f4bee46b0f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 27.94) (xy 48.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56277c4c-e3cd-451a-8f50-fecc3254a547")
+	)
+	(wire
+		(pts
+			(xy 41.91 22.86) (xy 41.91 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7bff0a-751b-4086-b3a8-ba21b51b30b7")
+	)
+	(wire
+		(pts
+			(xy 29.21 26.67) (xy 29.21 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4484a6f-3592-4415-9c48-8f2f50f45e71")
+	)
+	(wire
+		(pts
+			(xy 29.21 31.75) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb50b783-3ce0-4496-819e-b94d5623342c")
+	)
+	(wire
+		(pts
+			(xy 29.21 13.97) (xy 44.45 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03e0288-71de-44a9-a51a-a658b1469396")
+	)
+	(wire
+		(pts
+			(xy 48.26 22.86) (xy 41.91 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c7fe8f-5f86-4fa6-8522-606a0c516726")
+	)
+	(wire
+		(pts
+			(xy 44.45 19.05) (xy 48.26 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c674d964-6925-44bb-86db-0cd83e20f5ef")
+	)
+	(wire
+		(pts
+			(xy 41.91 26.67) (xy 29.21 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7b8b98-a4da-48a7-83a0-1d5d9f577d36")
+	)
+	(wire
+		(pts
+			(xy 20.32 31.75) (xy 29.21 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8413798-73bb-4dcf-b21e-219ddb3cac83")
+	)
+	(wire
+		(pts
+			(xy 44.45 13.97) (xy 44.45 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddae6e81-4f3d-4018-ae4b-0b240e1e2412")
+	)
+	(hierarchical_label "I1"
+		(shape output)
+		(at 48.26 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a4e43c0-911d-4280-b8b7-e3e8edd7dd02")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "291ea988-d54f-402e-929a-d602c9cd2a05")
+		(property "Reference" "#PWR0101"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f76908a-ab50-4367-9e24-3f44a050e2f9")
+		)
+		(instances
+			(project "inputshield"
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
+		(at 33.02 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ef6ca37-08ef-4de7-9fbf-afcc0ea91bd9")
+		(property "Reference" "J1"
+			(at 35.56 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x1_Male"
+			(at 35.56 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 34.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16327473-c1d0-4aed-a570-23c69937b758")
+		)
+		(instances
+			(project "inputshield"
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J12")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J13")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J14")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J16")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J15")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J33")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J34")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J35")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J36")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J37")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J38")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J40")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J39")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J41")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J42")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J43")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J44")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J45")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J46")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J48")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J47")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J17")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J18")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J19")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J20")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J21")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J22")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J24")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J23")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J25")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J26")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J27")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J28")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J30")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J32")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J49")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J50")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J51")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J52")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J53")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J54")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J56")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J55")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "J57")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "J58")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "J59")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "J60")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "J61")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "J62")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "J64")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "J63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 48.26 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701cd77f-a88e-40be-ac27-013bb6bf9ffc")
+		(property "Reference" "#PWR0102"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 48.26 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aaa65d9-e465-4ea0-a330-62508f4dab14")
+		)
+		(instances
+			(project "inputshield"
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
+		(at 33.02 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c1c6d57-d513-452b-8ded-301fba5f1e44")
+		(property "Reference" "V1"
+			(at 35.56 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x1_Male"
+			(at 35.56 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 34.29 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
+			(at 33.02 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "809fad1e-72b3-4247-87e9-1886837d8d6a")
+		)
+		(instances
+			(project "inputshield"
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V1")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V2")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V3")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V4")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V5")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V6")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V8")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V7")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V9")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V10")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V11")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V12")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V13")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V14")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V16")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V15")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V33")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V34")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V35")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V36")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V37")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V38")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V40")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V39")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V41")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V42")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V43")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V44")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V45")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V46")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V48")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V47")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V17")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V18")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V19")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V20")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V21")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V22")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V24")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V23")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V25")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V26")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V27")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V28")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V29")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V30")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V32")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V31")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V49")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V50")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V51")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V52")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V53")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V54")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V56")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V55")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "V57")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "V58")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "V59")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "V60")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "V61")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "V62")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "V64")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "V63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 20.32 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb456ee5-9826-4de2-9e2c-a02dd54623ac")
+		(property "Reference" "R1"
+			(at 22.86 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 22.86 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
+			(at 18.542 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 20.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81d6eaf8-be5d-4a53-a076-eb04e21f528b")
+		)
+		(pin "1"
+			(uuid "40f46fd8-f27a-48b1-9554-c5c6c3573130")
+		)
+		(instances
+			(project "inputshield"
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/3b98c42c-2445-4a1c-a37f-c0038035d7bf/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/0beaa491-470f-4dc0-925e-e018fee48bd8/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/607d2f6d-d735-44d4-a7c8-ce3fbc7b87c4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/05e2aba4-b6d0-4ce6-8567-1c8122113af5/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/b62926cc-f339-4427-827a-4d7ee0ab5788/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bc908447-4850-46ec-9098-6a19b67152f4/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/bdd41da5-f264-46e3-ae69-6c0cd229d80a/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e6979134-d3b4-4148-8e0d-77b885357265"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/03fbc15b-d6ba-4e44-9589-2e1ca5e7aae9"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/e8a344dd-1117-4495-9927-e5cbbfaf59a3"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/143830ad-b7f7-4b4d-8a39-617cf61ea68a"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ce2dacf5-fed8-4f8c-bc4d-d7a18d8d82a8"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ac144fb4-2558-4b95-936b-a16f10f9170a"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/ae8f9438-0020-47e2-96d4-13918615a2c7"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/1bd45343-638c-4ccd-98b7-1d397335088e/9e6deee5-efdb-43b9-82e8-25315cb9be78/4dd1d3fb-5c2b-47f4-b7aa-70f0dae52d87/404eac64-b941-4dcc-a48a-2dd6361f4a3d"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
