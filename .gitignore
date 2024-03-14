@@ -32,6 +32,8 @@ fp-info-cache
 
 ### KiCad Patch ###
 rescue-backup/
+inputshield-backups/
+pcbway_production/
 
 *.tsv
 bom/

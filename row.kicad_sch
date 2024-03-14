@@ -842,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 55.88 88.9)
+			(xy 99.06 88.9) (xy 54.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 88.9) (xy 55.88 118.11)
+			(xy 54.61 88.9) (xy 54.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2090,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 118.11)
+		(at 52.07 118.11)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -2102,7 +2102,7 @@
 		)
 		(uuid "e6979134-d3b4-4148-8e0d-77b885357265")
 		(property "Sheetname" "input1"
-			(at 52.6284 121.92 90)
+			(at 51.3584 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2111,7 @@
 			)
 		)
 		(property "Sheetfile" "input.kicad_sch"
-			(at 66.6246 121.92 90)
+			(at 65.3546 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 			)
 		)
 		(pin "I1" output
-			(at 55.88 118.11 90)
+			(at 54.61 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)

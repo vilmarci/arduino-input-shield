@@ -951,7 +951,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15"
-			(at 153.5684 90.5764 90)
+			(at 154.432 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1448,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 104.14 60.96)
+			(xy 99.06 59.69) (xy 104.14 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 104.14 76.2)
+			(xy 104.14 59.69) (xy 104.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3636,7 +3636,7 @@
 		)
 	)
 	(sheet
-		(at 86.36 59.69)
+		(at 86.36 58.42)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -3648,7 +3648,7 @@
 		)
 		(uuid "9e6deee5-efdb-43b9-82e8-25315cb9be78")
 		(property "Sheetname" "chess"
-			(at 86.36 58.9784 0)
+			(at 86.36 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3657,7 @@
 			)
 		)
 		(property "Sheetfile" "chess.kicad_sch"
-			(at 86.36 64.0846 0)
+			(at 86.36 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3667,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 99.06 60.96 0)
+			(at 99.06 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

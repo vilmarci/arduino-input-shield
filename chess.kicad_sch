@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 27.94) (xy 41.91 27.94)
+			(xy 39.37 26.67) (xy 41.91 26.67)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 27.94) (xy 41.91 35.56)
+			(xy 41.91 26.67) (xy 41.91 35.56)
 		)
 		(stroke
 			(width 0)
@@ -356,7 +356,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 25.4)
+		(at 26.67 24.13)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -368,7 +368,7 @@
 		)
 		(uuid "3b98c42c-2445-4a1c-a37f-c0038035d7bf")
 		(property "Sheetname" "row1"
-			(at 26.67 24.6884 0)
+			(at 26.67 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +377,7 @@
 			)
 		)
 		(property "Sheetfile" "row.kicad_sch"
-			(at 26.67 29.7946 0)
+			(at 26.67 28.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +387,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 26.67 27.94 180)
+			(at 26.67 26.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +397,7 @@
 			(uuid "4db1dbca-f7ae-4a7e-bd8f-9f27df864ca5")
 		)
 		(pin "OUT" output
-			(at 39.37 27.94 0)
+			(at 39.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
